@@ -5,11 +5,9 @@ pythonver=3.8-slim
 
 #vars
 IMAGENAME=emlo2_s2
-#REPO= jaideepmr
+REPO= jaideepmr
 APP_VER = 1.0
-#IMAGEFULLNAME=${REPO}/${IMAGENAME}:${APP_VER}
-
-IMAGEFULLNAME=${IMAGENAME}:${APP_VER}
+IMAGEFULLNAME=${REPO}/${IMAGENAME}:${APP_VER}
 
 .PHONY: help build push all
 
@@ -24,8 +22,7 @@ help:
 .DEFAULT_GOAL := all
 
 build:
-#	    @docker build --pull --build-arg PY_VER=${pythonver} -t ${IMAGEFULLNAME} .
-	    @docker build --build-arg PY_VER=${pythonver} -t ${IMAGEFULLNAME} .
+	    @docker build --build-arg PY_VER=${pythonver} -t ${IMAGEFULLNAME} . --shm-size=256m
 
 push:
 	    @docker push ${IMAGEFULLNAME}
