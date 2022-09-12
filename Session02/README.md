@@ -1,58 +1,61 @@
-[![Open in Visual Studio Code](https://classroom.github.com/assets/open-in-vscode-c66648af7eb3fe8bc4f294546bfd86ef473780cde1dea487d3c4ff354943c9ae.svg)](https://classroom.github.com/online_ide?assignment_repo_id=8324427&assignment_repo_type=AssignmentRepo)
-# EMLO V2 - Session 02
+**Repository github url : https://github.com/jai-mr/Sessions/tree/main/Session02 <br/>
+**Assignment Repository : https://github.com/jai-mr/Sessions/blob/main/Session02/README.md <br/>
+**Submitted by : Jaideep R - No Partners<br/>
+**Registered email id : jaideepmr@gmail.com<br/>
 
-## The list of action items to complete the assignment.
+## Objective
 
-- Implementation of pytorch-lightning code for CIFAR10 training and evalaution using htdra config file.
-- Integration of timm model (calling pretraing model and modify the head and tail to run on CIFAR10 with 10 classes).
-- Implementation of cog for inferecing the model.
-- Buinding a dockerfile to create a docker image.
-- Building the docker image using make file.
 
-# Steps to run thorugh the Assignment 
+* Use the template
+	https://github.com/ashleve/lightning-hydra-template
+* Add CIFAR10 datamodule (see how MNIST is integrated with the template, and similarly integrate CIFAR10)
+  Refer to this - CIFAR10 training: https://colab.research.google.com/drive/1dnc5jVmCLN1UsSL_p4X9UNgE77Y6UpoD?usp=sharing
+  (https://juliusruseckas.github.io/ml/lightning.html ,
+  https://pytorch-lightning.readthedocs.io/en/stable/notebooks/lightning_examples/cifar10-baseline.html 
+  see create_model call, and use timm pretrained model there  
+* It should include a Makefile for building the docker image, i.e. doing make build on terminal should build the docker image.
+* Include scripts train.py and eval.py for training and eval(metrics) for the model, 
+  docker run <image>:<>tag python3 src/train.py experiment=experiment_name.yaml
+* Include COG into this for inference only (image) inference , any pretrained timm model, or the model trained above on a given image.
 
-## Run make file to build the docker images
-Run makefile using below command to build the docker image atomtically 
-```
-make build
-```
-This will build the image with Python version 3.8-slim and image name mullermuttu/emlo2_s2:1.0
+### Make File
 
-To change the base version of the image run below command
-```
-make build pythonver=3.10
-```
+* [Github Link to Makefile](https://github.com/jai-mr/Sessions/blob/main/Session02/Makefile)
+	
+* Makefile Commands Used
+	* Make
+	* Make build 
+	* Make push
+	* Make all
 
-## Initiating the training and evalustion using docker image built
-Once the docker image built using make file now we can start training by running below command
+* Makefile Execution
+ * Image for Makefile Execution
+	<img src="images/img1.2.png" width="800"/>
+	<img src="images/img1.3.png" width="800"/>
+ * Docker Image created after Makefile execution
+	<img src="images/img1.4.png" width="800"/>
 
-`docker run -t mullermuttu/emlo2_s2:1.0 python train.py`
+### Training & Validation using the Docker Image
 
-We can adjust the below parameters for training using Hydra args in docker run command
-* learning_rate: float
-* run_eval: true
-* max_epochs: int
+* Command<br/>
+	`docker run -it --shm-size=256m jaideepmr/emlo2_s2:1.0`
 
-To run training with learning rate `1e-4` and max_epochs 30:
+* Output of Training using the docker image<br/>
+	<img src="images/img2.1.png" width="800"/>
+	<img src="images/img2.1.png" width="800"/>
+	<img src="images/img2.3.png" width="800"/>
 
-`docker run -t mullermuttu/emlo2_s2:1.0 python src/train.py learning_rate=1e-4 max_epochs=30`
+### Running Inference using COG
+* Commands Executed
+	```
+	cd src/cog
+	curl $IMAGE_URL > input.jpg
+	```
+	`cog predict -i image=@input.jpg`
 
-### Running evaluation
-to run the evalution,
-
-`docker run -t mullermuttu/emlo2_s2:1.0 python src/train.py run_eval=true`
-
-## Running the inference using `cog`
-
-To the the inferecnce,
-
-```
-cd src/cog
-IMAGE_URL=https://gist.githubusercontent.com/bfirsh/3c2115692682ae260932a67d93fd94a8/raw/56b19f53f7643bb6c0b822c410c366c3a6244de2/mystery.jpg
-curl $IMAGE_URL > input.jpg
-```
-
-`cog predict -i image=@input.jpg`
-
-**cog output**
-![cogoutput](img/cog_output.png)
+ * To run the evalution<br/>
+	`docker run -it --shm-size=256m jaideepmr/emlo2_s2:1.0 python src/train.py run_eval=true`
+ 	<img src="images/img3.1.png" width="800"/>
+	
+ * Inference Output<br/>
+ 	<img src="images/img3.2.png" width="800"/>	
