@@ -11,19 +11,19 @@ WIP
 
 - Please refer to https://github.com/jai-mr/Sessions/blob/main/Session03/README.md
 
-2. **Hyperparam sweep for CIFAR10 dataset with resnet18 from timm**
+2. Hyperparam sweep for CIFAR10 dataset with resnet18 from timm
 
 - Please refer to https://github.com/jai-mr/S3_Main
 - Best Results stored in optimization_results.yaml [Link to be specified]
 
-3. **Push model, logs and data to google drive (using dvc)**
+3. Push model, logs and data to google drive (using dvc)
 
 - Please refer to - https://drive.google.com/drive/folders/1XGDOgiNjWhWpnNjt2OXcxLtFeEm1S7xN?usp=sharing
 
 4. Jupyter Notebook
 - https://github.com/jai-mr/Sessions/blob/main/Session03/S3_Asgn.ipynb
 
-5. **Upload Tensorboard logs to (https://tensorboard.dev/) and share link to the tensorboard.dev**
+5. Tensorboard logs
 
 - Please refer to https://tensorboard.dev/experiment/yVipbg4YQVyjsbPMwBQKBQ/
 
