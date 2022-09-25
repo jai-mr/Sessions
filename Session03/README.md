@@ -22,7 +22,7 @@ WIP
 
 4. Jupyter Notebook
 - https://github.com/jai-mr/Sessions/blob/main/Session03/S3_Asgn.ipynb
-
+ 
 5. Tensorboard logs
 
 - Please refer to https://tensorboard.dev/experiment/yVipbg4YQVyjsbPMwBQKBQ/
