@@ -7,24 +7,24 @@ WIP
 ----
 <b>Assignment-03</b>
 
-1. ** README.md File for the 3rd session
+<b>1. README.md File for the 3rd session</b>
 
-- Please refer to https://github.com/jai-mr/Sessions/blob/main/Session03/README.md
+- url : https://github.com/jai-mr/Sessions/blob/main/Session03/README.md
 
-2. Hyperparam sweep for CIFAR10 dataset with resnet18 from timm
+<b>2. Hyperparam sweep for CIFAR10 dataset with resnet18 from timm</b>
 
-- Please refer to https://github.com/jai-mr/S3_Main
+- url : https://github.com/jai-mr/S3_Main
 - Best Results stored in optimization_results.yaml [Link to be specified]
 
-3. Push model, logs and data to google drive (using dvc)
+<b>3. Push model, logs and data to google drive (using dvc)</b>
 
-- Please refer to - https://drive.google.com/drive/folders/1XGDOgiNjWhWpnNjt2OXcxLtFeEm1S7xN?usp=sharing
+- url : https://drive.google.com/drive/folders/1XGDOgiNjWhWpnNjt2OXcxLtFeEm1S7xN?usp=sharing
 
-4. Jupyter Notebook
-- https://github.com/jai-mr/Sessions/blob/main/Session03/S3_Asgn.ipynb
+<b>4. Jupyter Notebook</b>
+- url : https://github.com/jai-mr/Sessions/blob/main/Session03/S3_Asgn.ipynb
  
-5. Tensorboard logs
+<b>5. Tensorboard logs</b>
 
-- Please refer to https://tensorboard.dev/experiment/yVipbg4YQVyjsbPMwBQKBQ/
+- url : https://tensorboard.dev/experiment/yVipbg4YQVyjsbPMwBQKBQ/</b>
 
 
