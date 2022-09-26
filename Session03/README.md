@@ -1,8 +1,8 @@
-**Assignment github url : https://github.com/jai-mr/Sessions/tree/main/Session03 </br>
-**Assignment README.md  : https://github.com/jai-mr/Sessions/blob/main/Session03/README.md </br>
-**Github url for Code Repository : https://github.com/jai-mr/S3_Main </br>
-**Submitted by : Jaideep R - No Partners</br>
-**Registered email id : jaideepmr@gmail.com</br>
+<b>Assignment github url : https://github.com/jai-mr/Sessions/tree/main/Session03 </b> </br>
+<b>Assignment README.md  : https://github.com/jai-mr/Sessions/blob/main/Session03/README.md </b>  </br>
+<b>Github url for Code Repository : https://github.com/jai-mr/S3_Main </b>  </br>
+<b>Submitted by : Jaideep R - No Partners </b>  </br>
+<b>Registered email id : jaideepmr@gmail.com</br>
 
 <b>Assignment-03</b>
 
