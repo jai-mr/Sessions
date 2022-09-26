@@ -1,20 +1,20 @@
-**Repository github url : https://github.com/jai-mr/Sessions/tree/main/Session03 </br>
-**Assignment Repository : https://github.com/jai-mr/Sessions/blob/main/Session03/README.md </br>
+**Assignment github url : https://github.com/jai-mr/Sessions/tree/main/Session03 </br>
+**Assignment README.md  : https://github.com/jai-mr/Sessions/blob/main/Session03/README.md </br>
+**Github url for Code Repository : https://github.com/jai-mr/S3_Main </br>
 **Submitted by : Jaideep R - No Partners</br>
 **Registered email id : jaideepmr@gmail.com</br>
 
-WIP
-----
 <b>Assignment-03</b>
 
 <b>1. README.md File for the 3rd session</b>
 
 - url : https://github.com/jai-mr/Sessions/blob/main/Session03/README.md
 
-<b>2. Github url : Hyperparam sweep for CIFAR10 dataset with resnet18 from timm</b>
+<b>2. Github url for Code Repository : Hyperparam sweep for CIFAR10 dataset with resnet18 from timm</b>
 
-- url : https://github.com/jai-mr/S3_Main
-- Best Results stored in optimization_results.yaml [Link to be specified]
+- <b>url : https://github.com/jai-mr/S3_Main</b>
+- Best Results stored in <b>optimization_results.yaml</b>
+  url : https://github.com/jai-mr/Sessions/blob/main/Session03/optimization_results.yaml
 
 <b>3. Push model, logs and data to google drive (using dvc)</b>
 
