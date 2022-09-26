@@ -1,0 +1,6 @@
+name: optuna
+best_params:
+  model.optimizer.lr: 0.06051884461817804
+  datamodule.batch_size: 128
+  model.optimizer._target_: torch.optim.SGD
+best_value: 0.7847999930381775
