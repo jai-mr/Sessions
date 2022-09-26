@@ -25,6 +25,6 @@ WIP
  
 <b>5. Tensorboard logs</b>
 
-- url : https://tensorboard.dev/experiment/yVipbg4YQVyjsbPMwBQKBQ/</b>
+- url : https://tensorboard.dev/experiment/jkBywwhgRmSqKOnokn0tew/</b>
 
 
