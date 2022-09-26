@@ -1,4 +1,4 @@
-**Repository github url : https://github.com/jai-mr/Sessions/tree/main/Session03 (Links to an external site.)</br>
+**Repository github url : https://github.com/jai-mr/Sessions/tree/main/Session03 </br>
 **Assignment Repository : https://github.com/jai-mr/Sessions/blob/main/Session03/README.md </br>
 **Submitted by : Jaideep R - No Partners</br>
 **Registered email id : jaideepmr@gmail.com</br>
@@ -11,7 +11,7 @@ WIP
 
 - url : https://github.com/jai-mr/Sessions/blob/main/Session03/README.md
 
-<b>2. Hyperparam sweep for CIFAR10 dataset with resnet18 from timm</b>
+<b>2. Github url : Hyperparam sweep for CIFAR10 dataset with resnet18 from timm</b>
 
 - url : https://github.com/jai-mr/S3_Main
 - Best Results stored in optimization_results.yaml [Link to be specified]
