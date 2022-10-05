@@ -22,6 +22,10 @@
 * Makefile Commands Used
 	* Make build
 
+* Command to invoke docker image for gradio prediction<br/>
+	```
+	docker run -it -p 8080:8080 jaideepmr/emlo2_s4:1.0
+	```
 * Output of Docker image creation and build<br/>
 	<img src="images/docimg1.png" width="800"/>
 
@@ -31,8 +35,21 @@
 	<img src="images/docimg3.png" width="800"/>
   <img src="images/docimg4.png" width="800"/>
 
- * Docker Image created after Makefile execution
-	<img src="images/img1.4.png" width="800"/>
+ * Docker Image size created after Makefile execution - 1.15GB
+	
+	<img src="images/docimg5.png" width="800"/>
+	
+* [Training Log - Click to view](https://github.com/jai-mr/Sessions/blob/main/Session04/logs/log.md)
+	
+* Training metrics
+```
+┏━━━━━━━━━━━━━━━━━━━━━━━━━━━┳━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
+┃        Test metric        ┃       DataLoader 0        ┃
+┡━━━━━━━━━━━━━━━━━━━━━━━━━━━╇━━━━━━━━━━━━━━━━━━━━━━━━━━━┩
+│         test/acc          │    0.8084999918937683     │
+│         test/loss         │    0.8463168144226074     │
+└───────────────────────────┴───────────────────────────┘
+```
 
 ### Training & Validation 
 * 	[Jupyter Notebook Link](https://github.com/jai-mr/Sessions/blob/main/Session04/S4_Asgn.ipynb)
