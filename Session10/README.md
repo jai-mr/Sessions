@@ -13,7 +13,11 @@
 Youtube Link : https://youtu.be/DYgMGh70pxc
 FPS: 22.01
 * Output for YoloV7=tiny object detection stats
+	<img src="img/Output-YoloV7tiny-Interval-2andTracker.png" width="800"/>
 
+### JTop Stats for Jent Nano Device
+
+<img src="img/JTopOutput.png.png" width="800"/>
 
 
 
