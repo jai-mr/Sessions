@@ -5,13 +5,13 @@
 
 ### 1. yolov7-tiny
 * Youtube Link : https://youtu.be/h4gDqTMkaQU
-* FPS: 21.9
+* FPS: 5.6
 * Output for YoloV7 object detection stats<br/>
 	<img src="img/Output-YoloV7-Interval-2andTracker.png" width="800"/>
   
 ### 2. yolov7
 Youtube Link : https://youtu.be/DYgMGh70pxc
-FPS: 22.01
+FPS: 5.68
 * Output for YoloV7=tiny object detection stats
 	<img src="img/Output-YoloV7tiny-Interval-2andTracker.png" width="800"/>
 
