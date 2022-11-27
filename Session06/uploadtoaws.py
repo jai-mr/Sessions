@@ -19,11 +19,11 @@ def upload_to_aws(local_file, bucket, s3_file):
         print("Credentials not available")
         return False
 
-print("Starting to copy last.ckpt ..... ")
+print("Starting to upload last.ckpt ..... ")
 
 local_file='logs/train/runs/2022-11-25_14-20-42/checkpoints/last.ckpt'
 bucket_name='jrl-aws-bucket'
 s3_file_name='last.ckpt'
 uploaded = upload_to_aws(local_file, bucket_name, s3_file_name)
 
-print("File last.ckpt copied ..... ",uploaded)
+print("File last.ckpt uploaded ..... ",uploaded)
