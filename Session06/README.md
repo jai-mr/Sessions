@@ -36,12 +36,4 @@
 
 
 ### Program to copy last checkpoint file to aws bucket
-[uploadtoaws.py](https://github.com/jai-mr/Sessions/blob/main/Session06/uploadtoaws.py)
-
-
-
-you can run the testing script after training the model to get the final model metrics
-
-
-
-
+* [uploadtoaws.py](https://github.com/jai-mr/Sessions/blob/main/Session06/uploadtoaws.py)
