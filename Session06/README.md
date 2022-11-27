@@ -24,15 +24,15 @@
 * Link to Tensorboard logs on Tensorboard.dev : https://tensorboard.dev/experiment/Pr499PcZRfeLmEG1vvQyUg/
 * Training Time: 4742.513200998306 (s)
 * NVIDIA - SMI Output - Master<br/>
-	<img src="ddp/img/1.png" width="400"/>
+	<img src="ddp/img/1.png" width="800"/>
 * NVIDIA - SMI Output - Worker Node	<br/>
-	<img src="ddp/img/2.png" width="400"/>
+	<img src="ddp/img/2.png" width="800"/>
 * Htop Output - Master<br/>
-	<img src="ddp/img/3.png" width="400"/>
+	<img src="ddp/img/3.png" width="800"/>
 * Htop Output - Worker Node<br/>
-	<img src="ddp/img/4.png" width="400"/>
+	<img src="ddp/img/4.png" width="800"/>
 * Metrics<br/>
-	<img src="ddp/img/5.png" width="1000"/>
+	<img src="ddp/img/5.png" width="800"/>
 
 
 ### Program to copy last checkpoint file to aws bucket
