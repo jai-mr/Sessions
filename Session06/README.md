@@ -10,11 +10,11 @@
 * Link to Tensorboard logs on Tensorboard.dev : https://tensorboard.dev/experiment/4zaHVsa9T8yzrdAsbPOO1g/
 * Training Time: 2685.183524131775 (s)
 * NVIDIA - SMI Output<br/>
-	<img src="fsdp/img/1.png" width="400"/>
+	<img src="fsdp/img/1.png" width="800"/>
 * Htop Output	<br/>
-	<img src="fsdp/img/2.png" width="400"/>
+	<img src="fsdp/img/2.png" width="800"/>
 * Metrics<br/>
-	<img src="fsdp/img/3.png" width="1000"/>
+	<img src="fsdp/img/3.png" width="800"/>
 
 
 ### Train ViT Base using DDP (4 GPU x 2 Nodes)
