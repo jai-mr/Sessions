@@ -12,6 +12,8 @@
   6. GradCAM
   7. GradCAM++
 
+< Click on Cell Image to get full view of image> 
+
 | Original Image | IG |       Noise Tunnel | Saliency | Occlusion | SHAP | GradCAM | GradCAM++ |
 :----------------------------:|:--------------------------------:|:--------------------------------:|:--------------------------------:|:--------------------------------:|:--------------------------------:|:--------------------------------:|:--------------------------------:|
 ![](images/1-boat.jpg)| ![](output_1/1-boat_ig.jpg) | ![](output_1/1-boat_nt.jpg) | ![](output_1/1-boat_saliency.jpg) | ![](output_1/1-boat_occ.jpg) | ![](output_1/1-boat_grad_shap.jpg) | ![](output_1/1-boat_gc.jpg) | ![](output_1/1-boat_gcp.jpg)
