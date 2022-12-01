@@ -28,6 +28,17 @@
 ![](images/10-alligator.jpg)| ![](output_1/10-alligator_ig.jpg) | ![](output_1/10-alligator_nt.jpg) | ![](output_1/10-alligator_saliency.jpg) | ![](output_1/10-alligator_occ.jpg) | ![](output_1/10-alligator_grad_shap.jpg) | ![](output_1/10-alligator_gc.jpg) | ![](output_1/10-alligator_gcp.jpg)
 
 
+## Adversarial Attacks using PGD <Projected Gradient Descent> which is an iterative version of  FGSM (Fast Gradient Sign Method)that can generate adversarial examples. It takes multiple gradient steps to search for an adversarial perturbation within the desired neighbor ball around the original inputs. 
+
+The following images have been modified so they all predict 'Persian cat' when predicted using the pretrained resnet18 model from timm library.
+
+
+
+![](output-2/1-boat_adv.jpg) | ![](output-2/2-car_adv.jpg) | ![](output-2/3-cat_adv.jpg)
+![](output-2/4-dog_adv.jpg) | ![](output-2/5-bus_adv.jpg) | ![](output-2/6-truck_adv.jpg)
+![](output-2/7-tiger_adv.jpg) | ![](output-2/8-shark_adv.jpg) | ![](output-2/9-turtle_adv.jpg)
+![](output-2/10-alligator_adv.jpg) | ![]() | ![]()
+
 
 
 
