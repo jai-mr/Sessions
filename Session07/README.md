@@ -3,7 +3,30 @@
 **Submitted by : Jaideep R - No Partners<br/>
 **Registered email id : jaideepmr@gmail.com<br/>
 
-Work in progress.  
-Presently occupied with my daughter who is in 12th and preparing for her entrance exams which are going on in parallel to the 12th prelims.. so finding time is a bit difficult. But yes would be working on the assignments definitely and send you the email as and when I complete it. Request to please help out. 
-Marking a place-holder for the assignment.
+### Model Explanation with
+  1. IG
+  2. IG w/ Noise Tunnel
+  3. Saliency
+  4. Occlusion
+  5. SHAP
+  6. GradCAM
+  7. GradCAM++
+
+| Original Image | IG |       Noise Tunnel | Saliency | Occlusion | SHAP | GradCAM | GradCAM++ |
+:----------------------------:|:--------------------------------:|:--------------------------------:|:--------------------------------:|:--------------------------------:|:--------------------------------:|:--------------------------------:|:--------------------------------:|
+![](images/1-boat.jpg)| ![](output_1/1-boat_ig.jpg) | ![](output_1/1-boat_nt.jpg) | ![](output_1/1-boat_saliency.jpg) | ![](output_1/1-boat_occ.jpg) | ![](output_1/1-boat_grad_shap.jpg) | ![](output_1/1-boat_gc.jpg) | ![](output_1/1-boat_gcp.jpg)
+![](images/2-car.jpg)| ![](output_1/2-car_ig.jpg) | ![](output_1/2-car_nt.jpg) | ![](output_1/2-car_saliency.jpg) | ![](output_1/2-car_occ.jpg) | ![](output_1/2-car_grad_shap.jpg) | ![](output_1/2-car_gc.jpg) | ![](output_1/2-car_gcp.jpg)
+![](images/3-cat.jpg)| ![](output_1/3-cat_ig.jpg) | ![](output_1/3-cat_nt.jpg) | ![](output_1/3-cat_saliency.jpg) | ![](output_1/3-cat_occ.jpg) | ![](output_1/3-cat_grad_shap.jpg) | ![](output_1/3-cat_gc.jpg) | ![](output_1/3-cat_gcp.jpg)
+![](images/4-dog.jpg)| ![](output_1/4-dog_ig.jpg) | ![](output_1/4-dog_nt.jpg) | ![](output_1/4-dog_saliency.jpg) | ![](output_1/4-dog_occ.jpg) | ![](output_1/4-dog_grad_shap.jpg) | ![](output_1/4-dog_gc.jpg) | ![](output_1/4-dog_gcp.jpg)
+![](images/5-bus.jpg)| ![](output_1/5-bus_ig.jpg) | ![](output_1/5-bus_nt.jpg) | ![](output_1/5-bus_saliency.jpg) | ![](output_1/5-bus_occ.jpg) | ![](output_1/5-bus_grad_shap.jpg) | ![](output_1/5-bus_gc.jpg) | ![](output_1/5-bus_gcp.jpg)
+![](images/6-truck.jpg)| ![](output_1/6-truck_ig.jpg) | ![](output_1/6-truck_nt.jpg) | ![](output_1/6-truck_saliency.jpg) | ![](output_1/6-truck_occ.jpg) | ![](output_1/6-truck_grad_shap.jpg) | ![](output_1/6-truck_gc.jpg) | ![](output_1/6-truck_gcp.jpg)
+![](images/7-tiger.jpg)| ![](output_1/7-tiger_ig.jpg) | ![](output_1/7-tiger_nt.jpg) | ![](output_1/7-tiger_saliency.jpg) | ![](output_1/7-tiger_occ.jpg) | ![](output_1/7-tiger_grad_shap.jpg) | ![](output_1/7-tiger_gc.jpg) | ![](output_1/7-tiger_gcp.jpg)
+![](images/8-shark.jpg)| ![](output_1/8-shark_ig.jpg) | ![](output_1/8-shark_nt.jpg) | ![](output_1/8-shark_saliency.jpg) | ![](output_1/8-shark_occ.jpg) | ![](output_1/8-shark_grad_shap.jpg) | ![](output_1/8-shark_gc.jpg) | ![](output_1/8-shark_gcp.jpg)
+![](images/9-turtle.jpg)| ![](output_1/9-turtle_ig.jpg) | ![](output_1/9-turtle_nt.jpg) | ![](output_1/9-turtle_saliency.jpg) | ![](output_1/9-turtle_occ.jpg) | ![](output_1/9-turtle_grad_shap.jpg) | ![](output_1/9-turtle_gc.jpg) | ![](output_1/9-turtle_gcp.jpg)
+![](images/10-alligator.jpg)| ![](output_1/10-alligator_ig.jpg) | ![](output_1/10-alligator_nt.jpg) | ![](output_1/10-alligator_saliency.jpg) | ![](output_1/10-alligator_occ.jpg) | ![](output_1/10-alligator_grad_shap.jpg) | ![](output_1/10-alligator_gc.jpg) | ![](output_1/10-alligator_gcp.jpg)
+
+
+
+
+
 
