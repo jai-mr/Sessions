@@ -37,5 +37,26 @@
 ![](output_2/4-dog_adv.jpg) | ![](output_2/5-bus_adv.jpg) | ![](output_2/6-truck_adv.jpg)
 ![](output_2/7-tiger_adv.jpg) | ![](output_2/8-shark_adv.jpg) | ![](output_2/9-turtle_adv.jpg)
 ![](output_2/10-alligator_adv.jpg)
+  
+### Model Robustness with
+
+  1. Pixel Dropout
+  2. FGSM
+  3. Random Noise
+  4. Random Brightness
+
+  
+|        fgsm                    |           Gaussian Noise        | Pixel Dropout                  |           RandomBrightnesssion |
+|:------------------------------:|:-------------------------------:|:------------------------------:|:------------------------------:|
+| ![](output_robustness/1-boat_fgsm.jpg) | ![](output_robustness/1-boat_Gaussnoise.jpg) | ![](output_robustness/1-boat_pixeldropout_.jpg) | ![](output_robustness/1-boat_RandomBrightness.jpg) |
+| ![](output_robustness/2-car_fgsm.jpg) | ![](output_robustness/2-car_Gaussnoise.jpg) | ![](output_robustness/2-car_pixeldropout_.jpg) | ![](output_robustness/2-car_RandomBrightness.jpg) |
+| ![](output_robustness/3-cat_fgsm.jpg) | ![](output_robustness/3-cat_Gaussnoise.jpg) | ![](output_robustness/3-cat_pixeldropout_.jpg) | ![](output_robustness/3-cat_RandomBrightness.jpg) |
+| ![](output_robustness/4-dog_fgsm.jpg) | ![](output_robustness/4-dog_Gaussnoise.jpg) | ![](output_robustness/4-dog_pixeldropout_.jpg) | ![](output_robustness/4-dog_RandomBrightness.jpg) |
+| ![](output_robustness/5-bus_fgsm.jpg) | ![](output_robustness/5-bus_Gaussnoise.jpg) | ![](output_robustness/5-bus_pixeldropout_.jpg) | ![](output_robustness/5-bus_RandomBrightness.jpg) |
+| ![](output_robustness/6-truck_fgsm.jpg) | ![](output_robustness/6-truck_Gaussnoise.jpg) | ![](output_robustness/6-truck_pixeldropout_.jpg) | ![](output_robustness/6-truck_RandomBrightness.jpg) |
+| ![](output_robustness/7-tiger_fgsm.jpg) | ![](output_robustness/7-tiger_Gaussnoise.jpg) | ![](output_robustness/7-tiger_pixeldropout_.jpg) | ![](output_robustness/7-tiger_RandomBrightness.jpg) |
+| ![](output_robustness/8-shark_fgsm.jpg) | ![](output_robustness/8-shark_Gaussnoise.jpg) | ![](output_robustness/8-shark_pixeldropout_.jpg) | ![](output_robustness/8-shark_RandomBrightness.jpg) |
+| ![](output_robustness/9-turtle_fgsm.jpg) | ![](output_robustness/9-turtle_Gaussnoise.jpg) | ![](output_robustness/9-turtle_pixeldropout_.jpg) | ![](output_robustness/9-turtle_RandomBrightness.jpg) |
+| ![](output_robustness/10-alligator_fgsm.jpg) | ![](output_robustness/10-alligator_Gaussnoise.jpg) | ![](output_robustness/10-alligator_pixeldropout_.jpg) | ![](output_robustness/10-alligator_RandomBrightness.jpg) |
 
 
