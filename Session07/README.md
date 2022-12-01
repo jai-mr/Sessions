@@ -36,6 +36,6 @@
 ![](output_2/1-boat_adv.jpg) | ![](output_2/2-car_adv.jpg) | ![](output_2/3-cat_adv.jpg)
 ![](output_2/4-dog_adv.jpg) | ![](output_2/5-bus_adv.jpg) | ![](output_2/6-truck_adv.jpg)
 ![](output_2/7-tiger_adv.jpg) | ![](output_2/8-shark_adv.jpg) | ![](output_2/9-turtle_adv.jpg)
-![](output_2/10-alligator_adv.jpg) | ![]() | ![]()
+![](output_2/10-alligator_adv.jpg)
 
 
