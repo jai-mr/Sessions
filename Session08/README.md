@@ -42,13 +42,15 @@ $ ubuntu@ip-172-31-67-233:~/s8_main$ curl "http://localhost:8081/models"
   * [Output of script](https://github.com/jai-mr/Sessions/blob/main/Session08/img/4.png)<br/>
   * [Model Explanation](https://github.com/jai-mr/Sessions/blob/main/Session08/s8_main/test_serve/10_deer_ig.png)<br/>
 
-**4. Inference Metrics<br/>
+
+**4. Inference Metrics**<br/>
 
 <img src="img/5.png" width="800"/><br/>
 
-**5. TensorBoard Profiler<br/>
+**5. TensorBoard Profiler**<br/>
 
 <img src="img/6.png" width="800"/><br/>
 <img src="img/7.png" width="800"/><br/>
 <img src="img/8.png" width="800"/><br/>
+
 
