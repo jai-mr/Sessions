@@ -1,0 +1,4 @@
+{
+	"base_url": "http://localhost:8080/predictions/cifar",
+	"Image_path": "/home/ubuntu/s8_main/test_serve/image"
+}
