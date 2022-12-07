@@ -1,0 +1,142 @@
+```
+ubuntu@ip-172-31-67-233:~/s8_main$ python3 test_serve/test_serve_cifar.py
+testing: 10_deer.png
+test_serve/test_serve_cifar.py:23: ResourceWarning: unclosed file <_io.BufferedReader name='test_serve/image/10_deer.png'>
+  data = open('test_serve/image/' + image_path, 'rb').read()
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+response: {
+  "deer": 0.41709625720977783,
+  "cat": 0.20875628292560577,
+  "bird": 0.19557636976242065,
+  "airplane": 0.14063645899295807,
+  "horse": 0.015176080167293549
+}
+predicted label: deer, actual label: deer
+done testing: 10_deer.png
+
+testing: 30_airplane.png
+test_serve/test_serve_cifar.py:23: ResourceWarning: unclosed file <_io.BufferedReader name='test_serve/image/30_airplane.png'>
+  data = open('test_serve/image/' + image_path, 'rb').read()
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+response: {
+  "airplane": 0.9997301697731018,
+  "bird": 0.00019402740872465074,
+  "truck": 4.789196827914566e-05,
+  "automobile": 8.311905730806757e-06,
+  "frog": 6.366896741383243e-06
+}
+predicted label: airplane, actual label: airplane
+done testing: 30_airplane.png
+
+testing: 12274_dog.png
+test_serve/test_serve_cifar.py:23: ResourceWarning: unclosed file <_io.BufferedReader name='test_serve/image/12274_dog.png'>
+  data = open('test_serve/image/' + image_path, 'rb').read()
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+response: {
+  "dog": 0.9164499044418335,
+  "cat": 0.08306750655174255,
+  "airplane": 0.0002251051482744515,
+  "horse": 0.00019213651830796152,
+  "automobile": 2.912358831963502e-05
+}
+predicted label: dog, actual label: dog
+done testing: 12274_dog.png
+
+testing: 203_cat.png
+test_serve/test_serve_cifar.py:23: ResourceWarning: unclosed file <_io.BufferedReader name='test_serve/image/203_cat.png'>
+  data = open('test_serve/image/' + image_path, 'rb').read()
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+response: {
+  "cat": 0.9998818635940552,
+  "horse": 5.5857359257061034e-05,
+  "airplane": 5.045806028647348e-05,
+  "frog": 4.607713890436571e-06,
+  "dog": 3.0669471016153693e-06
+}
+predicted label: cat, actual label: cat
+done testing: 203_cat.png
+
+testing: 912_bird.png
+test_serve/test_serve_cifar.py:23: ResourceWarning: unclosed file <_io.BufferedReader name='test_serve/image/912_bird.png'>
+  data = open('test_serve/image/' + image_path, 'rb').read()
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+response: {
+  "bird": 0.9635782837867737,
+  "truck": 0.017286717891693115,
+  "cat": 0.008700103498995304,
+  "airplane": 0.006332608871161938,
+  "dog": 0.0016982404049485922
+}
+predicted label: bird, actual label: bird
+done testing: 912_bird.png
+
+testing: 43_horse.png
+test_serve/test_serve_cifar.py:23: ResourceWarning: unclosed file <_io.BufferedReader name='test_serve/image/43_horse.png'>
+  data = open('test_serve/image/' + image_path, 'rb').read()
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+response: {
+  "horse": 0.9999953508377075,
+  "automobile": 4.300185537431389e-06,
+  "dog": 3.146186315916566e-07,
+  "airplane": 3.2968037189107235e-09,
+  "truck": 2.3700645890301075e-09
+}
+predicted label: horse, actual label: horse
+done testing: 43_horse.png
+
+testing: 62_ship.png
+test_serve/test_serve_cifar.py:23: ResourceWarning: unclosed file <_io.BufferedReader name='test_serve/image/62_ship.png'>
+  data = open('test_serve/image/' + image_path, 'rb').read()
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+response: {
+  "ship": 0.999968409538269,
+  "airplane": 1.9147459170199e-05,
+  "automobile": 7.108654244802892e-06,
+  "truck": 3.994082817371236e-06,
+  "bird": 5.094602215649502e-07
+}
+predicted label: ship, actual label: ship
+done testing: 62_ship.png
+
+testing: 200_frog.png
+test_serve/test_serve_cifar.py:23: ResourceWarning: unclosed file <_io.BufferedReader name='test_serve/image/200_frog.png'>
+  data = open('test_serve/image/' + image_path, 'rb').read()
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+response: {
+  "frog": 0.987820565700531,
+  "automobile": 0.009964486584067345,
+  "dog": 0.0017918917583301663,
+  "horse": 0.0003353863430675119,
+  "bird": 5.416393105406314e-05
+}
+predicted label: frog, actual label: frog
+done testing: 200_frog.png
+
+testing: 201_automobile.png
+test_serve/test_serve_cifar.py:23: ResourceWarning: unclosed file <_io.BufferedReader name='test_serve/image/201_automobile.png'>
+  data = open('test_serve/image/' + image_path, 'rb').read()
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+response: {
+  "automobile": 1.0,
+  "airplane": 2.8429207432623116e-08,
+  "truck": 2.7590452589265624e-08,
+  "frog": 1.9057583955373048e-08,
+  "horse": 9.885831708800197e-09
+}
+predicted label: automobile, actual label: automobile
+done testing: 201_automobile.png
+
+testing: 202_truck.png
+test_serve/test_serve_cifar.py:23: ResourceWarning: unclosed file <_io.BufferedReader name='test_serve/image/202_truck.png'>
+  data = open('test_serve/image/' + image_path, 'rb').read()
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+response: {
+  "truck": 0.5463177561759949,
+  "automobile": 0.3534412086009979,
+  "airplane": 0.08000951260328293,
+  "bird": 0.006317760795354843,
+  "cat": 0.005740732420235872
+}
+predicted label: truck, actual label: truck
+done testing: 202_truck.png
+```
