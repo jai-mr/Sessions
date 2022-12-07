@@ -1,1 +1,0 @@
-https://github.com/RubixML/CIFAR-10/tree/master/train
