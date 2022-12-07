@@ -1,18 +1,5 @@
 ```
 
-(pytorch) ubuntu@ip-172-31-67-233:~/s8_main/serve$ python ts_scripts/torchserve_grpc_client.py infer cifar ../test_serve/image/10_deer.png
-{
-  "deer": 0.41709625720977783,
-  "cat": 0.20875628292560577,
-  "bird": 0.19557636976242065,
-  "airplane": 0.14063645899295807,
-  "horse": 0.015176080167293549
-}
-(pytorch) ubuntu@ip-172-31-67-233:~/s8_main/serve$
-
-
-------------------------------
-
 (pytorch) ubuntu@ip-172-31-67-233:~/s8_main$ python serve/ts_scripts/torchserve_grpc_client.py infer cifar test_serve/image/10_deer.png
 {	
   "deer": 0.41709625720977783,
