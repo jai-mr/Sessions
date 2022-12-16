@@ -46,7 +46,7 @@
   4. Random Brightness
 
   
-|        fgsm                    |           Gaussian Noise        | Pixel Dropout                  |           RandomBrightnesssion |
+|        fgsm                    |           Gaussian Noise        | Pixel Dropout                  |           RandomBrightnesss |
 |:------------------------------:|:-------------------------------:|:------------------------------:|:------------------------------:|
 | ![](output_robustness/1-boat_fgsm.jpg) | ![](output_robustness/1-boat_Gaussnoise.jpg) | ![](output_robustness/1-boat_pixeldropout_.jpg) | ![](output_robustness/1-boat_RandomBrightness.jpg) |
 | ![](output_robustness/2-car_fgsm.jpg) | ![](output_robustness/2-car_Gaussnoise.jpg) | ![](output_robustness/2-car_pixeldropout_.jpg) | ![](output_robustness/2-car_RandomBrightness.jpg) |
